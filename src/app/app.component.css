@@ -1,0 +1,53 @@
+* {
+
+}
+
+div {
+    border: 1px solid black;
+}
+
+header fieldset {
+    padding: 30px;
+    min-height: 150px;
+    border: 0px;
+}
+
+header fieldset.left {
+    width: 700px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+header fieldset.left span,
+header fieldset.left button,
+header fieldset.left input {
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+header fieldset.left input {
+    font-size: 16px;
+    width: 150px;
+}
+
+img {
+    vertical-align: top;
+    display: inline-block;
+    width: 200px;
+}
+fieldset.body{
+    text-align: center;
+    border: 0px;
+}
+.card {
+    background-color: lightgoldenrodyellow;
+    text-align: left;
+    width: 275px;
+    height: 125px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 15px;
+    padding: 5px;
+    vertical-align: top;
+}

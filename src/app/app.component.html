@@ -1,0 +1,18 @@
+<div>
+  <header>
+    <fieldset class="left">
+      <span class="title">Initial Power Level: </span>
+      <input type="number" max="100" min="0" [(ngModel)]="power">
+      <input type="submit" value="Calculate Powers">
+    </fieldset>
+    <img src="../../assets/scouter.png" alt="Scouter">
+  </header>
+  <fieldset class="body">
+    <app-human [power]="power" class='card'></app-human>
+    <app-saiyan [power]="power" class='card'></app-saiyan>
+    <app-ssj [power]="power" class='card'></app-ssj>
+    <app-ssj2 [power]="power" class='card'></app-ssj2>
+    <app-ssj3 [power]="power" class='card'></app-ssj3>
+    <app-ssjblue [power]="power" class='card'></app-ssjblue>
+  </fieldset>
+<div>
